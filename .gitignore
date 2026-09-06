@@ -1,0 +1,32 @@
+# Ignore everything in home directory
+*
+
+# Allow .config itself
+!.config/
+
+# Hyprland
+!.config/hypr/
+!.config/hypr/**
+
+# Waybar
+!.config/waybar/
+!.config/waybar/**
+
+# Rofi
+!.config/rofi/
+!.config/rofi/**
+
+# Kitty
+!.config/kitty/
+!.config/kitty/**
+
+# Neovim
+!.config/nvim/
+!.config/nvim/**
+
+# Yazi
+!.config/yazi/
+!.config/yazi/**
+
+# Git itself
+!.gitignore

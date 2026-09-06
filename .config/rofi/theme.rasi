@@ -1,0 +1,61 @@
+* {
+    bg:         #111111;
+    bg-alt:     #1b1b1b;
+    fg:         #ffffff;
+    fg-muted:   #aaaaaa;
+    border:     #ffffff;
+
+    background-color: @bg;
+    text-color: @fg;
+}
+
+window {
+    width: 650px;
+    border: 2px;
+    border-color: @border;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+mainbox {
+    spacing: 10px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+prompt {
+    text-color: @fg-muted;
+}
+
+entry {
+    placeholder: "Search...";
+    placeholder-color: @fg-muted;
+}
+
+listview {
+    lines: 8;
+    spacing: 6px;
+    scrollbar: false;
+}
+
+element {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+element-text {
+    text-color: @fg;
+}
+
+element selected {
+    background-color: #ffffff;
+    text-color: #111111;
+}
+
+element selected element-text {
+    text-color: #111111;
+}
