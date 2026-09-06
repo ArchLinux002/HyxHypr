@@ -28,5 +28,9 @@
 !.config/yazi/
 !.config/yazi/**
 
+# Installation scripts
+!scripts/
+!scripts/**
+
 # Git itself
 !.gitignore
